@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 import java.util.Objects;
 //Вводим сущность (модель), связанной с таблицей в базе данных
 @Entity
-@Table(name="notification_task")
+
 public class NotificationTask {
 //    нам потребуется иметь первичный ключ в таблице, идентификатор чата,
 //    в который нужно отправить уведомление, текст уведомления и дату+время,
